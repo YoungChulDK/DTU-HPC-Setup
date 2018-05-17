@@ -63,3 +63,33 @@ which pip3
 Which shows you the path to the installation.
 
 Now you can install most of the common Python packages easily and pain free.
+
+# Transfering your data to and from the HPC
+
+**Do not transfer big amounts of data directly to and from the HPC in the login nodes!** 
+
+Please use the dedicated servers for transfering data.
+
+```
+ssh s134550@transfer.gbar.dtu.dk
+```
+
+Here you can upload/download large amounts of data faster.
+
+# Example
+
+In this repository, I have attached a quick and simple bash script, to install the Keras packages for Python 3.6.2 using a Tensorflow (GPU compiled) backend, in a virtual environment called 'hello_tensorflow'.
+
+Remember to login before using this script, then run it by writing 
+
+```
+sh hpc_keras_quick_setup_example.sh
+```
+
+Then open Python and check if the package is installed correctly.
+
+```
+Python3
+>>import keras
+>>exit()
+```
