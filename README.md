@@ -54,7 +54,7 @@ Now you are allowed to install packages within this virtual environemnt using Pi
 **Note:** If Pip3 gives you a writing permission error, it might be because you are "looking outside" of the virtual environment. To make sure you are using the pip installation from within your virtual env. use the command
 
 ```
-Which pip3
+which pip3
 ```
 Which shows you the path to the installation.
 
