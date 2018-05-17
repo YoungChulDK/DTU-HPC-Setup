@@ -1,4 +1,4 @@
-# DTU-HPC Setup
+# DTU HPC for Python Project Setup
 
 This is a simple guide on how to use the HPC and setup your project for simulations on the DTU HPC.
 
@@ -22,15 +22,19 @@ This interactive node has a lot of available GPU's which is great for training n
 ```
 nvidia-smi
 ```
-# Loading HPC Modules
+# Loading Pre-Installed HPC Modules
 
-The HPC has a lot of modules available, the modules can be listed by using the command
+The HPC has a lot of pre-installed modules available, the modules can be listed by using the command
 ```
 module avail
 ```
 To load a module, simply write
 ```
 module load (module name)
+```
+In case of a conflict, or if you need to use an alternative module, you can also unload the modules by writing
+```
+module unload (module name)
 ```
 
 # Setting up your project environment and installing modules
