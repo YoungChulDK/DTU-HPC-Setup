@@ -39,11 +39,13 @@ In case of a conflict, or if you need to use an alternative module, you can also
 module unload (module name)
 ```
 
-# Setting up your project environment and installing modules
+# Setting up your Python project environment and installing modules
 
 As you have limited writing access on the HPC, and you are not allowed to install additional modules directly onto the HPC, it is useful to setup a virtual environment for your project.
 
 This also allows you to install Python site-packages which are not included in the pre-installed modules such as Keras, newer versions of OpenCV, Tensorflow etc.
+
+**Python 3**
 
 In Python 3, you can create a Python 3 virutal environment easily, without the usage of virtualenv. This is simply done by stating
 
@@ -54,7 +56,6 @@ To activate your virtual envirnment do
 ```
 source ~/(Name of virtual environemnt)/bin/activate
 ```
-
 Now you are allowed to install packages within this virtual environemnt using Pip3 or similar, however do not use SUDO commands as it will get reported to the admins.
 
 **Note:** If Pip3 gives you a writing permission error, it might be because you are "looking outside" of the virtual environment. To make sure you are using the pip installation from within your virtual env. use the command
@@ -64,6 +65,11 @@ which pip3
 ```
 Which shows you the path to the installation.
 
+**Python 2.7**
+
+Visit https://virtualenv.pypa.io/en/stable/ for more information about setting up a Virtual Environment for Python 2.7 projects.
+
+-----------
 Now you can install most of the common Python packages easily and pain free.
 
 # Transfering your data to and from the HPC
