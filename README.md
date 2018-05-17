@@ -1,6 +1,8 @@
 # DTU HPC for Python Project Setup
 
-This is a simple guide on how to use the HPC and setup your project for simulations on the DTU HPC.
+This is a simple guide on how to use the HPC and setup your Python projects on the DTU HPC.
+
+Please read to the official guide on proper usage of the HPC first: https://www.hpc.dtu.dk/
 
 # Getting started
 
