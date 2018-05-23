@@ -48,6 +48,10 @@ In case of a conflict, or if you need to use an alternative module, you can also
 ```
 module unload (module name)
 ```
+or
+```
+module swap (module name)
+```
 
 # Setting up your Python project environment and installing modules
 
