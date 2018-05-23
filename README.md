@@ -1,4 +1,4 @@
-# DTU HPC for Python Project Setup
+# DTU HPC Setup for Python 3 Projects
 
 This is a simple guide on how to use the HPC and setup your Python projects on the DTU HPC.
 
@@ -24,6 +24,16 @@ This interactive node has a lot of available GPU's which is great for training n
 ```
 nvidia-smi
 ```
+As the resources are shared, make sure to pick one that is not too busy. This can be done by explicitly writing
+```
+CUDA_VISIBLE_DEVICES= (PICK GPU #, Check available ones using 'nvidia-smi'!)
+```
+Before you run your script. Like:
+```
+CUDA_VISIBLE_DEVICES=3 Python example.py
+```
+This will execute the Python script 'example.py' using the GPU Device 3. (Remember they are 0 indexed)
+
 # Loading Pre-Installed HPC Modules
 
 The HPC has a lot of pre-installed modules available, the modules can be listed by using the command
