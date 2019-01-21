@@ -6,7 +6,7 @@ Please read to the official guide on proper usage of the HPC first: https://www.
 
 # Getting started
 
-Open the Terminal, and create an SSH connection to the HPC using your student login. This is an example using my student number as login.
+Open the Terminal, and create an SSH connection to the HPC using your student login.
 ```
 ssh sXXXXXX@login.hpc.dtu.dk
 ```
