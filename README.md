@@ -4,7 +4,25 @@ This is a simple guide on how to use the HPC and setup your Python projects on t
 
 Please read to the official guide on proper usage of the HPC first: https://www.hpc.dtu.dk/
 
-# Getting started
+# Getting started - File transfer
+
+To transfer your files to the DTU filing system, you can either use SSH or a simple file transfer program like FileZilla.
+
+Do not use the login nodes to transfer big files, use the dedicated transfer server. 
+
+**Transfer files using FileZilla**
+
+**Host:** transfer.gbar.dtu.dk, **Username:** sXXXXXX (Your DTU Student ID), **Password:** (Your DTU password), **Port:** (Any, example: 22)
+
+It will direct you to your personal part of the drive, create a new folder here to start a project.
+
+**Transfer files using SSH**
+
+Please read the following guide:
+
+http://gbar.dtu.dk/faq/53-ssh
+
+# Logging in to the HPC
 
 Open the Terminal, and create an SSH connection to the HPC using your student login.
 ```
