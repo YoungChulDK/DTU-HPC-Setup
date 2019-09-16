@@ -6,7 +6,7 @@ Please read to the official guide on proper usage of the HPC first: https://www.
 
 # Getting started - File transfer
 
-To transfer your files to the DTU filing system, you can either use SSH or a simple file transfer program like FileZilla.
+To transfer your files to DTU G-Bar, you can either use SSH or a simple file transfer program like FileZilla.
 
 Do not use the login nodes to transfer big files, use the dedicated transfer server. 
 
