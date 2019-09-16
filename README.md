@@ -12,6 +12,8 @@ Do not use the login nodes to transfer big files, use the dedicated transfer ser
 
 **Transfer files using FileZilla**
 
+Use Quickconnect (Top bar) and enter the following.
+
 **Host:** transfer.gbar.dtu.dk, **Username:** sXXXXXX (Your DTU Student ID), **Password:** (Your DTU password), **Port:** (Any, example: 22)
 
 It will direct you to your personal part of the drive, create a new folder here to start a project.
@@ -24,7 +26,7 @@ http://gbar.dtu.dk/faq/53-ssh
 
 # Logging in to the HPC
 
-Open the Terminal, and create an SSH connection to the HPC using your student login.
+Open the Terminal on your computer, and create an SSH connection to the HPC using your student login.
 ```
 ssh sXXXXXX@login2.hpc.dtu.dk
 ```
@@ -103,18 +105,6 @@ Visit https://virtualenv.pypa.io/en/stable/ for more information about setting u
 
 -----------
 Now you can install most of the common Python packages easily and pain free.
-
-# Transfering your data to and from the HPC
-
-**Do not transfer big amounts of data directly to and from the HPC in the login nodes!** 
-
-Please use the dedicated servers for transfering data.
-
-```
-ssh s134550@transfer.gbar.dtu.dk
-```
-
-Here you can upload/download large amounts of data faster.
 
 # Example
 
